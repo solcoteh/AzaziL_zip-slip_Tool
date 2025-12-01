@@ -34,9 +34,9 @@ To use AzaziL_zip-slip_tool, follow these steps:
 Here are some examples of how to use AzaziL_zip-slip_tool:
 
 1. Create a zip archive named "payload.zip" containing the file "payload.txt" with 5 levels of directory traversal:
-   `````
+   ```
    python AzaziL_zip-slip_tool.py -f payload.zip -d 5 payload.txt
-   
+   ```
 
 2. Generate a tar archive named "data.tar" with the file "data.csv" using 3 levels of directory traversal:
    ````
